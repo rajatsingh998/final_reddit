@@ -304,8 +304,7 @@ Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
     </a>
 </div>
 <div class="container" style="margin-top:20%;display: flex;flex: 1;justify-content:space-around">
-    All Posts:
-    <br>
+    
     <div style="width: 50%" id="post">
 <%
 
@@ -330,7 +329,8 @@ Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 %>
 
 
-
+    Post:
+    
     <div class="well"   style="margin-left: 0%" style="background-color: white  !important">
         <div class="media">
             <div class="media-body">

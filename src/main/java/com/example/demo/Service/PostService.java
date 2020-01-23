@@ -63,7 +63,7 @@ public class PostService {
 
     public List<Post> search(String keyword) {
         System.out.println("service:"+repo.search(keyword).size());
-        return repo.search(keyword);
+        return repo.findAllByTitleContainsOrContentContains(keyword, keyword);
     }
     public List<Post> listAll() {
 //    User obj=new User("rajat","ygrygf.com","abc","admin");
